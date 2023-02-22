@@ -1,0 +1,55 @@
+.RSW_Patrol_table th {
+	background-color: silver;
+	font-weight: bold;
+	word-break: break-all;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+table.RSW_Patrol_table {
+	width:100%;
+	margin-bottom: 5;
+	border-radius: 10px;
+	overflow: hidden;
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 1px solid black;
+	table-layout: fixed;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.RSW_Patrol_table th,table.RSW_Patrol_table td{
+	border: 1px solid black;
+}
+
+table.RSW_Patrol_table tr:first-child th:first-child {
+	border-radius: 9px 0px 0px 0px;
+}
+
+table.RSW_Patrol_table tr:first-child th:last-child {
+	border-radius: 0px 9px 0px 0px;
+}
+
+table.RSW_Patrol_table tbody tr:last-child td:first-child {
+	border-radius: 0px 0px 0px 9px;
+}
+
+table.RSW_Patrol_table tbody tr:last-child td:last-child {
+	border-radius: 0px 0px 9px 0px;
+}
+
+.RSW_Patrol_table td {
+	vertical-align: middle;
+}
+
+.RSW_Patrol_table .RSW_action {
+	
+}
+
+.RSW_Patrol_table input{
+	width: 100%;
+}
+.RSW_Patrol_table textarea{
+	width: 100%;
+}
